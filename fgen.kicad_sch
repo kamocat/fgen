@@ -1554,7 +1554,7 @@
     (uuid fcc6a13c-6b82-471e-bf38-7b9a8cae23a9)
   )
 
-  (text "100:1 amplification" (at 96.52 152.4 0)
+  (text "20V peak-to-peak at full amplitude" (at 96.52 152.4 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 99bb66c8-cb11-4e47-b521-8de993b38959)
   )
@@ -1575,6 +1575,14 @@
   (label "left" (at 83.185 114.3 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 723647e3-17c8-4327-a5b2-2bc0a9bdb651)
+  )
+  (label "fb" (at 101.6 135.89 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7c3b67aa-21ba-434d-b2e3-86aa6c804438)
+  )
+  (label "ctrl" (at 119.38 116.84 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c44b3a70-c91b-4b7d-ac21-680d0c057ead)
   )
   (label "Vout" (at 152.4 119.38 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2296,7 +2304,7 @@
       (reference "Q4") (unit 1) (value "2N3906") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
     (path "/c657675e-8deb-40bb-80e5-5beec789b8d6"
-      (reference "R1") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+      (reference "R1") (unit 1) (value "470") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
     )
     (path "/d52775ee-dd56-474f-8b5c-c66029880e5c"
       (reference "R2") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
